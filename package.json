@@ -5,22 +5,25 @@
   "homepage": "https://github.com/LifeLong-LeArneR17/hw-09/settings/pages",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw-09/"
+    "build": "parcel build src/*.html --public-url /hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/LifeLong-LeArneR17/hw-09/settings/pages"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/LifeLong-LeArneR17/hw-08/settings/pages"
   },
   "dependencies": {
-    "flatpickr": "^4.6.13",
+    "@vimeo/player": "^2.18.0",
+    "basiclightbox": "^5.0.4",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.6"
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
